@@ -19,9 +19,15 @@ export class AppComponent {
     {
       title: 'compra il pane',
       priority: 1
+    },
+    {
+      title: 'pagare le bollete',
+      priority: 2
     }
   ]
   addTodo(todo: Todo){
     this.todos.push(todo);
+    console.log(this.todos);
+
   }
 }
